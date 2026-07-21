@@ -63,7 +63,7 @@ resume_analyzer/
    JSON parse errors gracefully, since LLM output isn't always perfectly clean.
 4. **UI**: Streamlit renders the parsed JSON as metrics, lists, and tags.
 
-## Ideas for Version 2 (nice additions once V1 works)
+## Future Enhancements
 - Support DOCX uploads too (using `python-docx`).
 - Compare resume against a pasted job description for role-specific fit scoring.
 - Highlight suggested edits directly on the extracted text.
