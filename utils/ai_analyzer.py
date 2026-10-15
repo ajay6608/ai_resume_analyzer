@@ -19,7 +19,7 @@ load_dotenv()
 
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
-MODEL = "gemini-flash-latest"  # alias that always points to Google's current stable Flash model
+MODEL = "gemini-3.5-flash-lite"  # alias that always points to Google's current stable Flash model
 
 SYSTEM_PROMPT = """You are an expert technical recruiter and resume/ATS (Applicant \
 Tracking System) reviewer. You review resumes for tech/CS roles and give honest, \
